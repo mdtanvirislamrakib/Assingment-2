@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation {
+    max-width: 1160px;
+    margin: 0 auto 18px;
+    padding: 20px 0px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo img {
+    width: 60px;
+}
+.logo-text {
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 32px;
+    font-weight: 700;
+}
+.nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 380px;
+    gap: 32px;
+    margin: 0 auto;
+}
+.nav ul li {
+    list-style: none;
+}
+.nav ul li a {
+    text-decoration: none;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+}
+.nav-btn {
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 30px;
+    max-width: 197px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.nav-btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(254, 163, 1);
+    border: 1px solid rgb(254, 163, 1);
+}

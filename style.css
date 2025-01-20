@@ -6,7 +6,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.body {
+    background-color: #F7F7F7;
+}
 
 /* navbar styling start */
 .navigation {
@@ -80,9 +82,7 @@
 
 
 /* header-container styling start */
-.header {
-    background-color: #F7F7F7;
-}
+
 .header-container {
     max-width: 1158px;
     margin: 0 auto;
@@ -129,3 +129,129 @@
 }
 
 /* header-container styling end */
+
+
+/* curriculum section start */
+
+.curriculum {
+    height: 869px;
+    background: url("assets/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.curriculum-container {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 60px 0px;
+    margin-bottom: 80px;
+}
+
+.curriculum-heading {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.curriculum-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 28.29px;
+}
+
+.curriculum-card-1 {
+    max-width: 367.8px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.curriculum-card-2 {
+    max-width: 367.8px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.curriculum-card-3 {
+    max-width: 367.8px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    transition: 0.5s;
+}
+.curriculum-card-1:hover, .curriculum-card-2:hover, .curriculum-card-3:hover {
+    border: 1px solid rgb(254, 163, 1);
+}
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.card-title {
+    color: rgb(32, 32, 32);
+    font-family: Quicksand;
+    font-size: 24.52px;
+    font-weight: 700;
+    text-align: center;
+    margin: 32px 0px;
+}
+
+.card-description {
+    color: rgb(128, 128, 128);
+    font-family: Raleway;
+    font-size: 15.09px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 38px;
+}
+.read {
+    text-decoration: none;
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.arrow {
+    max-width: 130px;
+    margin: 0 auto;
+}
+
+.left, .right {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(254, 163, 1);
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.left:hover {
+    transform: translateX(-5px);
+    background-color: rgba(254, 161, 1, 0.699);
+}
+.right:hover {
+    transform: translateX(5px);
+    background-color: rgba(254, 161, 1, 0.699);
+}
+.aro {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+} 

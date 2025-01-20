@@ -1,2 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@media screen and (max-width: 600px) {
+
+    /* nav responsive start */
+    .navigation {
+        max-width: 358px;
+        margin: 0 auto 20px;
+        border-bottom: 0.5px solid rgb(254, 163, 1);
+    }
+    .logo img{
+        width: 45px;
+    }
+    .logo-text {
+        display: none;
+    }
+    .nav {
+        display: none;
+    }
+    .nav-btn {
+        display: none;
+    }
+    .fa-bars {
+        display: block;
+        width: 22px;
+    }
+    /* nav responsive end */
+
+    /* header-container styling start */
+    .header-container {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .header-image {
+        max-width: 337px;
+    }
+
+    .header-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .header-title {
+        text-align: center;
+        font-size: 32px;
+        max-width: 357px;
+        margin: 0 auto 10px;
+    }
+    .header-description {
+        text-align: center;
+        font-size: 14px;
+        max-width: 357px;
+        margin: 0 auto 10px;
+    }
+    .header-btn {
+        margin: 0 auto;
+        max-width: 119px;
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+}

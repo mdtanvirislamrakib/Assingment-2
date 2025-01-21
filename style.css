@@ -116,14 +116,15 @@
     font-family: Quicksand;
     font-size: 20px;
     font-weight: 700;
-    padding: 10px 40px;
+    padding: 10px 20px;
     border: none;
     outline: none;
     cursor: pointer;
+    width: 177px;
     transition: 0.5s;
 }
 .header-btn:hover {
-    background-color: rgb(255, 255, 255);
+    background-color: transparent;
     color: rgb(17, 17, 17);
     border: 1px solid rgb(17, 17, 17);
 }
@@ -259,7 +260,6 @@
 /* stories section start styling */
 
 .stories-section {
-    height: 898px;
     background: url("assets/bg.png"),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
     background-position: center;
     background-size: cover;
@@ -380,4 +380,10 @@
 }
 .card-big:hover, .card-small:hover {
     transform: scale(1.02);
+}
+
+.btn {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
 }

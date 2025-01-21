@@ -97,4 +97,38 @@
     .arrow {
         display: none;
     }
+
+
+    /* stories section responsive styling */
+
+    .stories-header {
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+    .card-big {
+        display: none;
+    }
+    .story-cards {
+        gap: 0px;
+    }
+    .card-small {
+        font-size: 8px;
+        max-width: 173px;
+    }
+    .small-card-content {
+        padding: 10px;
+    }
+    .small-card-content .date {
+        border-radius: 28px;
+        font-size: 9px;
+        top: -20px;
+    }
+    .small-card-title {
+        font-size: 10px;
+    }
+    .btn {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
 }

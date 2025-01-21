@@ -99,7 +99,7 @@
     }
 
 
-    /* stories section responsive styling */
+    /* stories section responsive styling start*/
 
     .stories-header {
         font-size: 25px;
@@ -131,4 +131,7 @@
         display: flex;
         justify-content: center;
     }
+
+    /* stories section responsive styling end*/
+    
 }

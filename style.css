@@ -79,7 +79,13 @@
 
 /* navbar styling end */
 
-
+marquee {
+    max-width: 1158px;
+    margin: 0 auto;
+    color: rgb(254, 163, 1);
+    font-family: Quicksand;
+    font-size: 18px;
+}
 
 /* header-container styling start */
 

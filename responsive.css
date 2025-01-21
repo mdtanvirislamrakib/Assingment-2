@@ -59,4 +59,42 @@
         font-size: 16px;
         padding: 10px 15px;
     }
+
+    /* curiculum section styling start */
+    .curriculum-container {
+        padding: 30px 0px;
+        margin-bottom: 20px;
+    }
+    .curriculum-heading {
+        font-size: 26px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .curriculum-cards {
+        flex-direction: column;
+        gap: 12px;
+    }
+    .curriculum-card-1, .curriculum-card-2, .curriculum-card-3 {
+        max-width: 357px;
+    }
+    .card {
+        padding: 36px 28px;
+    }
+    .card-image {
+        max-width: 92px;
+    }
+    .card-title {
+        font-size: 16px;
+        margin: 22px 0px;
+    }
+    .card-description {
+        font-size: 10px;
+        margin-bottom: 25px;
+    }
+    .read {
+        font-size: 10px;
+    }
+    .arrow {
+        display: none;
+    }
 }

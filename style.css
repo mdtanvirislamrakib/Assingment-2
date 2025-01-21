@@ -253,4 +253,131 @@
 .aro {
     color: rgb(255, 255, 255);
     font-size: 24px;
-} 
+}
+
+
+/* stories section start styling */
+
+.stories-section {
+    height: 898px;
+    background: url("assets/bg.png"),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.stories {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.stories-header {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.story-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card-big {
+    grid-column: span 2;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 540.27px;
+    transition: 0.3s;
+}
+.card-big img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.story-1-content {
+    padding: 20px;
+}
+.story-1-content .date {
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    padding: 15px 30px;
+    position: relative;
+    top: -30px;
+    cursor: pointer;
+}
+
+.story-1-title {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.story-1-description {
+    color: rgb(102, 102, 102);
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.card-small {
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 290px;
+    transition: 0.4s;
+}
+
+.small-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card-small img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.small-card-content {
+    padding: 20px;
+}
+
+.small-card-content .date {
+    border-radius: 47.93px;
+    background: rgb(149, 178, 38);
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+    text-transform: capitalize;
+    position: relative;
+    top: -30px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.small-card-title {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 15.34px;
+    font-weight: 700;
+}
+.card-big:hover, .card-small:hover {
+    transform: scale(1.02);
+}

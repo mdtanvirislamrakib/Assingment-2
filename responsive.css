@@ -76,6 +76,8 @@
     }
     .curriculum-card-1, .curriculum-card-2, .curriculum-card-3 {
         max-width: 357px;
+        position: sticky;
+        top: 5px;
     }
     .card {
         padding: 36px 28px;
@@ -133,5 +135,37 @@
     }
 
     /* stories section responsive styling end*/
-    
+
+    /* footer section responsive start */
+
+    .footer-container {
+        padding: 20px 10px;
+    }
+    .footer-container {
+        flex-direction: column;
+        gap: 32px;
+    }
+    .footer-logo-content {
+        font-size: 25px;
+    }
+    .footer-description {
+        font-size: 16px;
+        /* text-align: center; */
+        margin-top: 20px;
+    }
+    .about h2 {
+        font-size: 20px;
+        margin-bottom: 27px;
+    }
+    .about a {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .touch-heading {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .touch-images img {
+        width: 30px;
+    }
 }

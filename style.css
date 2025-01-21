@@ -393,3 +393,80 @@ marquee {
     display: flex;
     justify-content: center;
 }
+
+
+/* footer section styling start */
+
+footer {
+    background: rgb(1, 172, 253);
+    max-width: 1439px;
+}
+
+.footer-container {
+    max-width: 1070px;
+    margin: auto;
+    padding: 80px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo-content {
+    display: inline;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 32.14px;
+    font-weight: 700;
+}
+.footer-description {
+    max-width: 400px;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 35px;
+}
+
+.about h2 {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+.about a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.touch-heading {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.touch-images {
+    display: flex;
+    gap: 10px;
+}
+.touch-images img {
+    cursor: pointer;
+    transition: 0.5s;
+}
+.touch-images img:hover {
+    transform: scale(1.2);
+}

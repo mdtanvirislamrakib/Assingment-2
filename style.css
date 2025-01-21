@@ -399,7 +399,7 @@ marquee {
 
 footer {
     background: rgb(1, 172, 253);
-    max-width: 1439px;
+    width: 100%;
 }
 
 .footer-container {
